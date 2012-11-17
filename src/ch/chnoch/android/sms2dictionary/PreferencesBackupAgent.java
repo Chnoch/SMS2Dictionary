@@ -22,23 +22,4 @@ public class PreferencesBackupAgent extends BackupAgentHelper {
 		addHelper(PREFS_BACKUP_KEY, helper);
 	}
 	
-	@Override
-	public void onBackup(ParcelFileDescriptor oldState, BackupDataOutput data, ParcelFileDescriptor newState) {
-		try {
-			super.onBackup(oldState, data, newState);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
-	@Override
-	public void onRestore(BackupDataInput data, int appVersionCode, ParcelFileDescriptor newState)  {
-		try {
-			super.onRestore(data, appVersionCode, newState);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-	}
 }
