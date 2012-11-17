@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">SMS2Dictionary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">SMS2Dictionary</string>
+    <string name="action">Import new texts into dictionary</string>
+    <string name="backup_helper">PreferencesBackupHelper</string>
+
+</resources>
