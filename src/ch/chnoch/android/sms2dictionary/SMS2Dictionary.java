@@ -102,7 +102,7 @@ public class SMS2Dictionary extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_start, menu);
+		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
 	
